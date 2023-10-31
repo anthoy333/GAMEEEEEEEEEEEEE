@@ -18,7 +18,6 @@ public class Health : MonoBehaviour
     {
         if (Input.GetKeyDown("p"))
         {
-            System.Print("Hi");
             // Player's turn
             if (enemies.Count > 0)
             {
